@@ -21,6 +21,11 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
 }
+@media screen and (max-width: 680px){
+    .container {
+        width: 153%;
+    }
+}
 .game{
     width: 69%;
     height: 100%;
